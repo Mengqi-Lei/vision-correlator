@@ -1,4 +1,4 @@
-<h2 align="center">Vision Correlators: Correlation-Driven Visual Understanding with Hypergraphs</h2>
+<h2 align="center">🕸️ Vision Correlators: Correlation-Driven Visual Understanding with Hypergraphs</h2>
 
 
 <div align="center">
@@ -7,7 +7,7 @@
 
 **Figure 1. Accuracy-efficiency comparison of Vision Correlator with representative visual backbones.**
 
-## Overview
+## Overview🔍
 
 Introducing **Vision Correlator (ViC)**, a hypergraph-based visual backbone for correlation-driven visual understanding. ViC moves beyond pairwise token interactions and explicitly models high-order semantic correlations among multiple visual regions, components, and semantic entities.
 
@@ -31,7 +31,7 @@ Introducing **Vision Correlator (ViC)**, a hypergraph-based visual backbone for 
 
 ViC is instantiated as **Isotropic ViC** for constant-resolution visual backbones and **Pyramid ViC** for hierarchical multi-scale representations, achieving a favorable accuracy-efficiency trade-off against strong Transformer and graph-based baselines.
 
-## ImageNet Results
+## ImageNet Results🏆
 
 
 <div align="center">
@@ -51,7 +51,7 @@ ViC is instantiated as **Isotropic ViC** for constant-resolution visual backbone
   </table>
 </div>
 
-## Getting Started
+## Getting Started🚀
 
 ### 1. Environment Setup
 
@@ -168,7 +168,7 @@ Run the following command to print model parameter counts and test a dummy forwa
 python model_summary.py
 ```
 
-## Supported Models
+## Supported Models💡
 
 The following model names are registered through `timm` and can be used by changing the `model` variable in `train.sh` or `test.sh`.
 
@@ -186,7 +186,7 @@ Pyramid ViC:
 
 The default scripts use `vic_ti_224_gelu`.
 
-## Repository Structure
+## Repository Structure📑
 
 ```text
 ViC_publish/
@@ -206,7 +206,7 @@ ViC_publish/
   assets/                  # figures for the paper/project page
 ```
 
-## Citation
+## Citation🏷️
 
 If this project is useful for your research, please cite:
 
