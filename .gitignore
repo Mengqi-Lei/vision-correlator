@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.pth
+*.pth.tar
+*.pt
+*.onnx
+output/
+outputs*/
+runs/
+wandb/
+.DS_Store
