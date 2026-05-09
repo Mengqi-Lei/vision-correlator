@@ -4,6 +4,7 @@
 <div align="center">
     <img src="assets/compare_plot.jpg" width="92%" height="92%">
 </div>
+
 **Figure 1. Accuracy-efficiency comparison of Vision Correlator with representative visual backbones.**
 
 ## Overview
