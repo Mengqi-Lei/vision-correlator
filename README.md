@@ -211,7 +211,7 @@ ViC_publish/
     vic_block.py           # core ViC block
     vic.py                 # isotropic ViC models
     pyramid_vic.py         # pyramid ViC models
-    utils.py               # KNN graph and common layers
+    utils.py               # common layers
   data/
     myloader.py            # ImageNet loader wrapper
     rasampler.py           # repeated augmentation sampler
