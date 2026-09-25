@@ -1,5 +1,6 @@
 <h2 align="center">🕸️ Vision Correlators: Correlation-Driven Visual Understanding with Hypergraphs</h2>
 
+<p align="center"><b>🔥 Our paper has been accepted to NeurIPS 2026!</b></p>
 
 <div align="center">
     <img src="assets/comp_intro.png" width="92%" height="92%">
@@ -11,7 +12,7 @@
 
 Introducing **Vision Correlator (ViC)**, a hypergraph-based visual backbone for correlation-driven visual understanding. ViC moves beyond pairwise token interactions and explicitly models high-order semantic correlations among multiple visual regions, components, and semantic entities.
 
-**Correlation Induction--Correlation Propagation**
+**Correlation Induction-Correlation Propagation**
 
 - Reformulates visual understanding as inducing multi-order correlation structures and propagating information across them.
 - Covers both local 2-order correlations and global beyond-pairwise semantic correlations.
@@ -50,6 +51,26 @@ ViC is instantiated as **Isotropic ViC** for constant-resolution visual backbone
     </tr>
   </table>
 </div>
+
+## Model Zoo📦
+
+Download the ViC model weights trained on ImageNet-1K from [Google Drive](https://drive.google.com/drive/folders/1bj0eMlW_oFgyt5ZZdlp9-qDJNwYzKWWN).
+
+### Isotropic ViC on ImageNet-1K
+
+| Method | Size | Acc-Top1 (%) | #Params (M) |
+| :--- | :---: | :---: | :---: |
+| ViC-T | 224 | 76.5 | 6.6 |
+| ViC-S | 224 | 81.9 | 20.5 |
+| ViC-B | 224 | 83.1 | 77.1 |
+
+### Pyramid ViC on ImageNet-1K
+
+| Method | Size | Acc-Top1 (%) | #Params (M) |
+| :--- | :---: | :---: | :---: |
+| Pyramid ViC-T | 224 | 79.4 | 9.9 |
+| Pyramid ViC-S | 224 | 82.8 | 24.8 |
+| Pyramid ViC-B | 224 | 83.9 | 83.3 |
 
 ## Getting Started🚀
 
@@ -160,14 +181,6 @@ Make sure the `model` variable in `test.sh` matches the checkpoint architecture.
 
 `test.sh` automatically checks whether the checkpoint contains `state_dict_ema`. If EMA weights are available, EMA evaluation is enabled.
 
-### 5. Model Summary
-
-Run the following command to print model parameter counts and test a dummy forward pass:
-
-```bash
-python model_summary.py
-```
-
 ## Supported Models💡
 
 The following model names are registered through `timm` and can be used by changing the `model` variable in `train.sh` or `test.sh`.
@@ -193,7 +206,6 @@ ViC_publish/
   train.py                 # ImageNet training and evaluation entry
   train.sh                 # default multi-GPU training script
   test.sh                  # checkpoint evaluation script
-  model_summary.py         # parameter count and forward-pass check
   requirements.txt
   modules/
     vic_block.py           # core ViC block
