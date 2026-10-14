@@ -2,6 +2,8 @@
 
 <p align="center"><b>🔥 Our paper has been accepted to NeurIPS 2026!</b></p>
 
+>📢 The camera-ready version of the paper is still being revised, and the final version will be posted on arXiv once the revisions are complete.
+
 <div align="center">
     <img src="assets/comp_intro.png" width="92%" height="92%">
 </div>
