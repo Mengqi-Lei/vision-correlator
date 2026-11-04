@@ -2,7 +2,12 @@
 
 <p align="center"><b>🔥 Our paper has been accepted to NeurIPS 2026!</b></p>
 
->📢 The camera-ready version of the paper is still being revised, and the final version will be posted on arXiv once the revisions are complete.
+<p align="center">
+  <img src="https://img.shields.io/badge/NeurIPS%202026-Paper-grey" alt="NeurIPS 2026 Paper (coming soon)" title="NeurIPS paper link coming soon">
+  <a href="paper/Vision-Correlators.pdf"><img src="https://img.shields.io/badge/Preprint-PDF-blue" alt="Preprint PDF"></a>
+  <a href="https://drive.google.com/drive/folders/1bj0eMlW_oFgyt5ZZdlp9-qDJNwYzKWWN"><img src="https://img.shields.io/badge/Weights-Google%20Drive-yellow" alt="Model Weights"></a>
+  <a href="mailto:mengqi-lei@163.com"><img src="https://img.shields.io/badge/Contact-Email-green" alt="Contact Email"></a>
+</p>
 
 <div align="center">
     <img src="assets/comp_intro.png" width="92%" height="92%">
@@ -11,6 +16,8 @@
 **Figure 1. Accuracy-efficiency comparison of Vision Correlator with representative visual backbones.**
 
 ## Overview🔍
+
+📄 [Read the paper](paper/Vision-Correlators.pdf)
 
 Introducing **Vision Correlator (ViC)**, a hypergraph-based visual backbone for correlation-driven visual understanding. ViC moves beyond pairwise token interactions and explicitly models high-order semantic correlations among multiple visual regions, components, and semantic entities.
 
@@ -218,6 +225,7 @@ ViC_publish/
     myloader.py            # ImageNet loader wrapper
     rasampler.py           # repeated augmentation sampler
   assets/                  # figures for the paper/project page
+  paper/                   # preprint PDF
 ```
 
 ## Citation🏷️
