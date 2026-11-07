@@ -233,5 +233,12 @@ ViC_publish/
 If this project is useful for your research, please cite:
 
 ```bibtex
-Coming soon...
+@inproceedings{
+  anonymous2026vision,
+  title={Vision Correlators: Correlation-Driven Visual Understanding with Hypergraphs},
+  author={Anonymous},
+  booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
+  year={2026},
+  url={https://openreview.net/forum?id=Vi8z1QsK4V}
+}
 ```
